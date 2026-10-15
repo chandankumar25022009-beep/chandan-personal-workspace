@@ -88,17 +88,9 @@ function App() {
               <a href="https://www.linkedin.com/in/chandan-kumar-9a3b22337" target="_blank" rel="noreferrer"><Link2 size={16} /> LinkedIn <ArrowUpRight size={13} /></a>
             </div>
           </div>
-          <div className="hero-art" aria-label="Abstract illustration of data being explored" role="img">
-            <div className="art-topline"><span>LEARNING IN PUBLIC</span><span>01 — 04</span></div>
-            <div className="art-orbit orbit-one" /><div className="art-orbit orbit-two" />
-            <div className="chart-label label-a">curiosity <span>↗</span></div>
-            <div className="chart-label label-b">practice <span>↗</span></div>
-            <div className="chart-bars" aria-hidden="true">
-              <span /><span /><span /><span /><span /><span /><span /><span /><span /><span /><span /><span />
-            </div>
-            <div className="art-axis"><span>START</span><span>LEARN · BUILD · REPEAT</span><span>2027</span></div>
-            <div className="art-caption"><span className="caption-dot" /> NO SHORTCUTS, JUST STEADY PROGRESS</div>
-          </div>
+          <figure className="hero-art hero-photo">
+            <img src={`${import.meta.env.BASE_URL}images/chandan-kumar.png`} alt="Portrait of Chandan Kumar" width="896" height="1152" />
+          </figure>
           <a href="#about" className="scroll-cue" aria-label="Scroll to about section"><span>SCROLL TO EXPLORE</span><ArrowDownRight size={17} /></a>
         </section>
 
