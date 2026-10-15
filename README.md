@@ -22,7 +22,7 @@ npm run preview
 
 - Edit the portfolio copy and learning topics in `src/App.tsx`.
 - Edit colors, typography, themes, and responsive layouts in `src/style.css`.
-- The Resume section links to Chandan's Google Drive file. Confirm its sharing settings allow the intended audience to open it before publishing the site.
+- The Resume section links to Chandan's Google Docs resume. Confirm its sharing settings allow the intended audience to open it before publishing the site.
 - Add project cards only for projects that exist. Include a live-demo link only when it is available.
 - Add an email address only after Chandan chooses one to publish.
 
