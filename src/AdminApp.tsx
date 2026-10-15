@@ -252,7 +252,24 @@ function AdminApp() {
   }
 
   if (checking) return <main className="admin-loading">Checking admin session…</main>
-  if (!authenticated) return <main className="admin-login-page"><a className="admin-back" href="/"><ArrowLeft size={16} /> Portfolio</a><section className="admin-login-panel"><div className="admin-mark"><Shield size={22} /></div><p className="admin-eyebrow">PRIVATE CONTENT MANAGEMENT</p><h1>Admin sign in</h1><p>Sign in using the administrator account configured in Supabase.</p><form onSubmit={signIn}><label>Email<input type="email" autoComplete="username" required value={email} onChange={(event) => setEmail(event.target.value)} /></label><label>Password<input type="password" autoComplete="current-password" required value={password} onChange={(event) => setPassword(event.target.value)} /></label><button className="admin-primary" disabled={busy}>{busy ? 'Signing in…' : 'Sign in'}</button></form>{message && <p className="admin-message" role="status">{message}</p>}<p className="admin-security-note">Password is verified by Supabase Auth. This page does not store it in browser storage.</p></section></main>
+  if (!authenticated) return (
+    <main className="admin-login-page">
+      <a className="admin-back" href={import.meta.env.BASE_URL}><ArrowLeft size={16} /> Portfolio</a>
+      <section className="admin-login-panel">
+        <div className="admin-mark"><Shield size={22} /></div>
+        <p className="admin-eyebrow">PRIVATE CONTENT MANAGEMENT</p>
+        <h1>Admin sign in</h1>
+        <p>Sign in using the administrator account configured in Supabase.</p>
+        <form onSubmit={signIn}>
+          <label>Email<input type="email" autoComplete="username" required value={email} onChange={(event) => setEmail(event.target.value)} /></label>
+          <label>Password<input type="password" autoComplete="current-password" required value={password} onChange={(event) => setPassword(event.target.value)} /></label>
+          <button className="admin-primary" disabled={busy || !__PORTFOLIO_BACKEND_ENABLED__}>{busy ? 'Signing in…' : 'Sign in'}</button>
+        </form>
+        {message && <p className="admin-message" role="status">{message}</p>}
+        <p className="admin-security-note">Password is verified by Supabase Auth. This page does not store it in browser storage.</p>
+      </section>
+    </main>
+  )
 
   const sectionIsCollection = ['education', 'skills', 'projects', 'certificates', 'journey'].includes(section)
   const records = sectionIsCollection ? content[section as DataSection] as unknown[] : []
