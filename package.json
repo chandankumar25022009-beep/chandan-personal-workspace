@@ -5,15 +5,22 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && npm run typecheck:api && vite build",
+    "typecheck:api": "tsc --noEmit -p tsconfig.api.json",
+    "test": "tsx --test tests/*.test.ts",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.117.3",
+    "cookie": "^2.0.1",
     "lucide-react": "^1.57.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
+    "@types/cookie": "^0.6.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",

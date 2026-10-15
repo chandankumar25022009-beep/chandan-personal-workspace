@@ -130,9 +130,10 @@ button { font: inherit; }
 .skill-bottom { display: flex; align-items: center; justify-content: space-between; gap: 14px; color: var(--subtle); font: 8px var(--mono); }
 .skill-line { height: 1px; width: 44px; background: var(--line-strong); }
 .skills-note { display: flex; gap: 11px; align-items: center; margin: 21px 0 0; color: var(--subtle); font-size: 9px; }.skills-note .status-dot { width: 6px; height: 6px; }
-.empty-project { min-height: 202px; padding: 30px 34px; display: grid; grid-template-columns: 58px 1fr 44px; gap: 23px; align-items: center; border: 1px solid var(--line); background: var(--bg-soft); }
+.project-list { display: grid; gap: 12px; }.empty-project { min-height: 202px; padding: 30px 34px; display: grid; grid-template-columns: 58px 1fr 44px; gap: 23px; align-items: center; border: 1px solid var(--line); background: var(--bg-soft); }
 .empty-project-mark { width: 48px; height: 48px; display: grid; place-items: center; color: var(--accent); border: 1px solid var(--line-strong); }
 .empty-project .eyebrow { margin: 0 0 11px; }.empty-project h3 { margin: 0 0 8px; font-size: 16px; font-weight: 600; }.empty-project p { max-width: 510px; margin: 0; color: var(--muted); font-size: 11px; line-height: 1.8; }
+.empty-project p + p { margin-top: 5px; }.empty-project p strong { color: var(--text); font-weight: 700; }.project-links { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 12px; }.project-links a { display: inline-flex; align-items: center; gap: 5px; color: var(--accent); font-size: 10px; font-weight: 700; }
 .circle-link { width: 40px; height: 40px; display: grid; place-items: center; border: 1px solid var(--line-strong); color: var(--accent); border-radius: 50%; transition: background 160ms ease; }.circle-link:hover { background: var(--bg-raised); }
 .education-section { padding-block: 102px; border-block: 1px solid var(--line); background: var(--bg-soft); }
 .education-inner .section-heading { margin-bottom: 35px; }

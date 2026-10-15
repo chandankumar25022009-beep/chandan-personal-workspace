@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "name": "Chandan Kumar",
+    "headline": "Aspiring Data Analyst | Data Science Learner | Diploma CSE Student",
+    "intro": "I’m Chandan, a computer science student building my foundations in Python and data science. I enjoy turning questions into things I can explore, understand, and build.",
+    "about": "I’m pursuing a Diploma in Computer Science and Engineering at Subharti Polytechnic College, Meerut. I’m at the beginning of my journey in data, and I’m comfortable saying so. I know basic Python concepts such as variables and loops, and I’m learning data analysis and data science. My goal is to become a Data Analyst and gradually grow toward Data Science and Machine Learning.",
+    "location": "Meerut, Uttar Pradesh, India",
+    "social": {
+      "github": "https://github.com/chandankumar25022009-beep",
+      "linkedin": "https://www.linkedin.com/in/chandan-kumar-9a3b22337"
+    }
+  },
+  "education": [
+    {
+      "id": "diploma-cse",
+      "title": "Diploma in Computer Science and Engineering",
+      "institution": "Swami Vivekanand Subharti University / Subharti Polytechnic College",
+      "location": "Meerut, Uttar Pradesh, India",
+      "period": "2024–2027",
+      "status": "Pursuing",
+      "detail": "5th semester · Third year"
+    },
+    {
+      "id": "class-10",
+      "title": "Class 10",
+      "institution": "MP High School",
+      "location": "Sitamarhi",
+      "period": "Completed 2024",
+      "status": "Completed",
+      "detail": ""
+    }
+  ],
+  "skills": [
+    { "id": "python", "name": "Python fundamentals", "category": "Programming", "status": "Beginner" },
+    { "id": "analysis", "name": "Data analysis", "category": "Data", "status": "Learning" },
+    { "id": "datascience", "name": "Data Science", "category": "Data", "status": "Learning" },
+    { "id": "cleaning", "name": "Data cleaning and EDA", "category": "Data", "status": "Learning" },
+    { "id": "sql", "name": "SQL and databases", "category": "Databases", "status": "Planned" },
+    { "id": "spreadsheets", "name": "Excel and spreadsheets", "category": "Business Intelligence", "status": "Planned" },
+    { "id": "visualization", "name": "Data visualization", "category": "Visualization", "status": "Planned" },
+    { "id": "statistics", "name": "Statistics and probability", "category": "Data Science", "status": "Planned" },
+    { "id": "ml", "name": "Machine Learning", "category": "Data Science", "status": "Planned" },
+    { "id": "ai", "name": "Generative AI", "category": "Interests", "status": "Planned" },
+    { "id": "web", "name": "Web development", "category": "Interests", "status": "Learning" }
+  ],
+  "projects": [],
+  "certificates": [],
+  "journey": [
+    { "id": "python", "title": "Python fundamentals", "status": "Learning", "detail": "Basic variables and loops; continuing to practise core concepts." },
+    { "id": "foundations", "title": "Data Science foundations", "status": "Learning", "detail": "A public learning repository contains foundation and practice folders." },
+    { "id": "cleaning", "title": "Data cleaning practice", "status": "Learning", "detail": "The Data-Science repository has a recent A7 Data Cleaning practice entry." },
+    { "id": "analysis", "title": "Exploratory data analysis", "status": "Planned", "detail": "Next: practise exploring and summarising a dataset." },
+    { "id": "sql", "title": "Excel and SQL", "status": "Planned", "detail": "Planned learning topics; no completion claim." },
+    { "id": "ml", "title": "Machine Learning fundamentals", "status": "Planned", "detail": "A future learning goal after strengthening data foundations." }
+  ],
+  "resume": {
+    "url": "https://docs.google.com/document/d/1C9TlBLlB-XGHaWZd74S_I8QOQAk3GpzJ/edit",
+    "label": "Open resume",
+    "isPublic": true,
+    "storagePath": null
+  },
+  "contact": {
+    "email": null,
+    "note": "Email not listed yet"
+  },
+  "settings": {
+    "title": "Chandan Kumar | Data & Code",
+    "description": "Chandan Kumar — aspiring data analyst and data science learner.",
+    "defaultTheme": "dark"
+  }
+}
